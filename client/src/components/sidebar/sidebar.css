@@ -19,7 +19,11 @@
 .sidebar.hidden{
     transform: translateX(-100%);
 }
+.navigation-text{
+    font-size: 40px;
+}
 .sidebar-title{
+    
     text-align: center;
     border-bottom: solid 1px #888181;
     font-family:sans-serif;

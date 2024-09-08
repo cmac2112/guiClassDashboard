@@ -1,0 +1,109 @@
+
+.head{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 10px;
+}
+.logout{
+    height: 50px;
+    width: 200px;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    background-color: rgb(61, 191, 28);;
+    padding: 10px;
+    cursor: pointer;
+    font-family: sans-serif;
+    border-radius: 20px;
+    border-color: rgb(61, 191, 28);
+    box-shadow: none;
+}
+
+.income-expense p{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.income{
+    font-style: sans-serif;
+    color: green;
+}
+.expense{
+    color: maroon
+}
+.graph-display {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 0fr);
+    gap: 20px; /* Adjust the gap between grid items as needed */
+    padding: 20px;
+}
+
+.grid-item {
+    background-color: #f0f0f0; /* Example background color */
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.graph-image {
+    width: 100%;
+    height: 90%;
+    max-width: 100%; /* Ensure the image fits within the grid item */
+}
+.graph-title{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.transaction-history{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+.transaction-history-title{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+    text-align: center;
+}
+.export{
+    
+    height: 50px;
+    width: 200px;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    background-color: rgb(61, 191, 28);;
+    padding: 10px;
+    cursor: pointer;
+    font-family: sans-serif;
+    border-radius: 20px;
+    border-color: rgb(61, 191, 28);
+    box-shadow: none;
+}
+.export-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.transaction-history{
+    background-color: black;
+}
+.transaction-history > ol{
+    list-style-type: none;
+    padding: 0;
+}
+.transaction-history > ol > li{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #f0f0f0;
+    font-family: Arial, Helvetica, sans-serif;
+}
